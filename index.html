@@ -2,10 +2,46 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <title>Задание по HTML</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Стилизация страницы с помощью CSS</title>
+    <!-- Подключаем внешний CSS файл -->
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header>
+        <h1 id="main-title">Главный заголовок страницы</h1>
+        <h2>Второстепенный заголовок</h2>
+    </header>
     
+    <main>
+        <section class="content-block">
+            <h3>Заголовок блока</h3>
+            <p>Это основной текст страницы. Здесь находится важная информация, которую нужно красиво оформить.</p>
+            <p>Еще один абзац текста для демонстрации стилей.</p>
+            <div>
+                <p>Это дочерний элемент внутри div.</p>
+            </div>
+        </section>
+        
+        <section class="special-block">
+            <h3>Особый блок</h3>
+            <p class="highlight">Этот текст должен быть выделен с помощью класса.</p>
+            <p>Обычный текст в особом блоке.</p>
+        </section>
+        
+        <section>
+            <h3>Еще один блок</h3>
+            <p>Текст в другом блоке без специальных классов.</p>
+            <ul>
+                <li>Элемент списка 1</li>
+                <li>Элемент списка 2</li>
+                <li>Элемент списка 3</li>
+            </ul>
+        </section>
+    </main>
     
-    </body>
+    <footer>
+        <p>&copy; 2024 Все права защищены</p>
+    </footer>
+</body>
 </html>
